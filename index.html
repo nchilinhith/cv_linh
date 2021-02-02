@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- link star rate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./public/mainCss.css" />
+    <title>Nguyen Chi Linh</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- row full name -->
+      <div class="row d-flex justify-content-center">
+        <h1 id="nameColor">Nguyen Chi Linh</h1>
+      </div>
+      <!-- row content -->
+      <div class="row">
+        <div class="col-4 border">
+          <div class="row">
+            <div class="col-4">
+              <img
+                id="myImg"
+                src="./img/avatar.png"
+                alt="Linh Nguyen Chi"
+                style="width:100px;max-width:100px"
+              />
+            </div>
+            <div class="col-8">
+              <div>
+                <h3>Personal Detail</h3>
+              </div>
+              <div>
+                Date of birth: June 23, 1998<br/>
+                Gender: Male <br />
+                Adress: An Giang Province <br />
+                Phone Number: 0367225006 <br />
+                Email: nchilinhith@gmail.com
+              </div>
+            </div>
+          </div>
+          <!-- Education -->
+          <div class="row">
+            <div>
+              <h3>Education</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./img/university.png"
+                alt="imgEducation"
+                width="110px"
+                height="110px"
+              />
+            </div>
+            <div class="col-8">
+              Sep 2016 – present Can Tho University <br />
+              Major : Hight-Quality Information Technology <br />
+              Technology GPA : 3.05 / 4.00 <br />
+            </div>
+          </div>
+          <!-- Fields of Interest  -->
+          <div class="row">
+            <div>
+              <h3>Fields of Interest</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./img/AI.png"
+                alt="imgJobInterest"
+                width="110px"
+                height="110px"
+              />
+            </div>
+            <div class="col-8">
+              <ul>
+                <li>Machine Learning</li>
+                <!-- <li>IoT</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-1"></div> -->
+        <div class="col-8 border">
+          <div class="">
+            <div>
+              <h3>Experience</h3>
+            </div>
+            <div>
+              <!-- <i id="timeColor">April 2019 – August 2019</i> <br />
+              Science research project: smarthome <br />
+              Tech stacks: NodeJS, Java, C, Sequelize, Google map API <br />
+              Built a web service using RESTFul API to manage the system. <br />
+              Generate a lock model by 3D printing. Automatically unlock the
+              bike lock via android application. <br />
+
+              <a href="https://youtu.be/nCkRcPuSMtg">Link to video demo</a> -->
+              <i id="timeColor">Jan 2019 – May 2019</i> <br />
+              Fundamental project: Automatic retractable awning system<br />
+              Tech stacks: C/C++, Java<br />
+              Hardware including: rain sensor, 2 DC motor, L298N module,
+              esp8266.<br />
+              Built a system that allows automatically retract via data from rain sensor
+              and manually control by android mobilee<br />
+              <i id="timeColor">Sep 2019 - Dec 2019 </i> <br />
+              Specialized projects: Traceability system of agricultural product<br />
+              Tech stacks: Solidity, Nodejs, Java, Kotlin, Infura, Ethereum<br />
+              Built a system of argicular product traceability using blockchain
+              ethereum technology<br />
+              <i id="timeColor">June 2020 - Jan 2021 </i> <br />
+              Thesis projects: Human Body Parts And Bone Recognition Combining 3D Visualization
+              For DICOM Images
+              <br />
+              Tech stacks: Python, ITK/VTK-viewer.<br />
+              Built a model CNN to classify human body parts and detect bone. Then
+              use grad-cam to mark bones combining visualize 3D<br />
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <h3>Publications</h3>
+            </div>
+            <div>
+              <i id="timeColor">Jan 2020 - June 2020</i> <br />
+              Paper topic: Growing Self-Organizing Maps for Metagenomic
+              Visualizations Supporting Disease Classification <br />
+              Using Growing Self-Organizing Maps to transform features of three
+              species metagenomic datasets into images. We predict disease by
+              fetched into the Convolutional Neural Network based on the
+              generated images<br />
+              Tech stacks: python, R, keras, tensorflow, deepmg<br />
+              Link: <a href="https://link.springer.com/chapter/10.1007/978-3-030-63924-2_9">https://link.springer.com/chapter/10.1007/978-3-030-63924-2_9</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row skill -->
+      <div class="row border d-flex justify-content-center">
+        <b> Skills </b>
+      </div>
+      <div class="row border">
+        <div class="col-6">
+          <div class="row">
+            Programming Languages:
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/C.png"
+                alt="C-language"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                C
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/js.png"
+                alt="Java-language"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                Javascript
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <br />
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/python.png"
+                alt="python-language"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                Python
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/java.png"
+                alt="Java-language"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                Java
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border">
+        <div class="col-6">
+          <div class="row">
+            Frameworks:
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/NodeJS.png"
+                alt="NodeJS"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                NodeJS
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/bootstrap.png"
+                alt="bootstrap"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                Bootstrap
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <br />
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="img/expressJS.png"
+                alt="expressJS"
+                width="80px"
+                height="80px"
+              />
+            </div>
+            <div class="col-6">
+              <div>
+                ExpressJS
+              </div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border">
+        <div>
+          Soft skills:
+        </div>
+        <div>
+          <ul>
+            <li>Teamwork</li>
+            <li>Presentation</li>
+            <li>Self-Study</li>
+            <li>
+              <a
+                href="https://github.com/bang6777?tab=overview&from=2020-09-01&to=2020-09-20"
+                >github</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- row References -->
+      <div class="row border d-flex justify-content-center">
+        <b> References </b>
+      </div>
+      <div class="row border">
+        <ul>
+          <li>
+            Hai Thanh Nguyen, PhD
+          </li>
+          <li>
+            Lecturer at College of Information and Communication Technology, Can Tho University
+          </li>
+          <li>
+            Email: nthai@cit.ctu.edu.vn
+          </li>
+            <a href="https://sites.google.com/view/nguyen-thanh-hai">Nguyễn Thanh Hải site</a>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div class="row border" id="breakLine"><br /></div>
+      <br />
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      };
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      };
+    </script>
+  </body>
+</html>
